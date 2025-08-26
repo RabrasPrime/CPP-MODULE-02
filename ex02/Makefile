@@ -3,7 +3,7 @@ OBJS			= $(SRCS:.cpp=.o)
 
 CXX				= clang++
 RM				= rm -f
-CXXFLAGS		= -Wall -Wextra -Werror -I. -std=c++98
+CXXFLAGS		= -Wall -Wextra -Werror -I.
 
 NAME			= directory
 
